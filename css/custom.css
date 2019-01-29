@@ -1,8 +1,12 @@
-main .card
+.navbar-brand
 {
-    width: 150px;
+    font-size: 30px;
+    color: black;
 }
-body 
+
+.navbar
 {
-    background-color: black;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: 20px;   
 }
