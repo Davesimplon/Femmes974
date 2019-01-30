@@ -1,3 +1,4 @@
+/*NAVBAR*/
 .navbar-brand
 {
     font-size: 30px;
@@ -9,4 +10,22 @@
     margin-left: 200px;
     margin-right: 200px;
     font-size: 20px;   
+}
+
+/*Page contact - provisoire*/
+.body>h1
+{
+	margin-left: 150px;
+    margin-right: 150px;
+    font-family: quicksandmedium;
+    font-size: 35px;
+    text-transform: uppercase;
+    
+}
+
+.btn
+{
+	font-family: quicksandregular;
+	font-size: 25px;
+	text-align: center;
 }
