@@ -9,10 +9,24 @@
     font-size: 20px; 
 }
 
+main{
+	width: 1400px;
+}
+
+
+/*image haut*/
+.imgHaut{
+
+}
 
 /*les paragraphes*/
 .paragraphe{
 	text-align: justify;
+}
+
+.paragraphe2{
+	text-align: center;
+
 }
 
 .vertGras{
@@ -20,7 +34,19 @@
 	font-weight: bold ;
 }
 
-/*******************************************************/
+/*les partenaires dans historiques*/
+#logopart{
+width: 100px;
+height: 100px;
+}
+
+.partenaires{
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	list-style: none;
+
+}
 
 
 /* HEADER */
