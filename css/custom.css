@@ -10,3 +10,49 @@
     margin-right: 200px;
     font-size: 20px;   
 }
+
+
+
+
+
+/*HISTORIQUE****************************/
+
+/*image*/
+#imgHaut
+{
+	width: 1400px;
+	height: 300px;
+	background-image: center;
+}
+
+
+
+.fotoGroupe{
+	text-align: center;
+}
+
+/*colonne de droite et de gauche*/
+/*
+.left{
+width: 60%;
+float: left;
+}
+
+
+.right{
+width: 30%;
+float: right;
+}
+*/
+/*les paragraphes*/
+.paragraphe{
+	text-align: justify;
+}
+
+.vertGras{
+	color: #107F6A;
+	font-weight: bold ;
+}
+
+/*******************************************************/
+
