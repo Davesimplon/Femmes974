@@ -1,16 +1,9 @@
-/*NAVBAR*/
-.navbar-brand
-{
-    font-size: 30px;
-    color: black;
-}
 
-.navbar
-{
-    margin-left: 200px;
-    margin-right: 200px;
-    font-size: 20px;   
-}
+/* BODY 
+ /* DIV CONTAINER */
+/* mettredans la repsonsive la width de 1400px */
+/* HEADER */
+/*  nav */
 
 /*Page contact - provisoire*/
 .body>h1
@@ -29,3 +22,17 @@
 	font-size: 25px;
 	text-align: center;
 }
+   
+
+
+/*les paragraphes*/
+.paragraphe{
+	text-align: justify;
+}
+
+.vertGras{
+	color: #107F6A;
+	font-weight: bold ;
+}
+
+
