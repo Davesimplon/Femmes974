@@ -1,9 +1,29 @@
+
 /* BODY 
  /* DIV CONTAINER */
 /* mettredans la repsonsive la width de 1400px */
 /* HEADER */
 /*  nav */
 
+
+/*Page contact - provisoire*/
+.body>h1
+{
+	margin-left: 150px;
+    margin-right: 150px;
+    font-family: quicksandmedium;
+    font-size: 35px;
+    text-transform: uppercase;
+    
+}
+
+.btn
+{
+	font-family: quicksandregular;
+	font-size: 25px;
+	text-align: center;
+}
+   
 
 
 /*les paragraphes*/
@@ -15,7 +35,5 @@
 	color: #107F6A;
 	font-weight: bold ;
 }
-
-/*******************************************************/
 
 
