@@ -1,9 +1,51 @@
 
-/* BODY 
+/* BODY */
+
+h1
+{
+	font-family: quicksandmedium;
+}
+
+
  /* DIV CONTAINER */
 /* mettredans la repsonsive la width de 1400px */
 /* HEADER */
+
 /*  nav */
+nav
+{
+	background: #1ACCAB;
+}
+.headerNav>a
+{
+	color: #107F6A;
+}
+.headerNav a:hover
+{
+	color: white;
+	font-weight: bold;
+}
+nav a
+{
+	color:black;
+}
+/* fin nav */
+/* div title */
+
+.headerImage
+{
+	background-image: url("../img/bg-stop-aux-violences-contre-les-femmes.jpg");
+	background-repeat: no-repeat;
+	background-size:  cover;
+	background-color:  #000;
+	padding: 5% 15% 30% 0;
+}
+.headerImage>h1
+{
+	color: white;
+	font-size: 4em;
+}
+/* *****************  MAIN ******************** */
 
 
 /*Page contact - provisoire*/
