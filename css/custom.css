@@ -136,8 +136,15 @@ main>div>h2
 
 
 
+<<<<<<< HEAD
 
 /*-*********************************  fin page ACCUEIL ***********************/
+=======
+/*les couleurs à utiliser*/
+/*#6DFFE4 #107F6A #1ACCAB*/
+
+
+>>>>>>> b15dbfce8781c292eb34041d82ae84c6dbb360d0
 /*Page contact - provisoire*/
 .body>h1
 {
@@ -154,10 +161,54 @@ main>div>h2
 	font-size: 25px;
 	text-align: center;
 }
+<<<<<<< HEAD
 .main{
+=======
+
+/*CSS CONTACT*/
+#btnEnvoyer{
+	color: white;
+	background-color: #107F6A;
+	border-color: none;
+}
+
+.colonne2{
+	display: flex;
+	align-items: center;
+}
+
+.colonne21{
+	list-style: none;
+}
+
+
+
+.colonne1{
+	margin-top: 50px;
+}
+
+.form-control{
+	background-color: #F0F0F0;
+}
+
+.bouton{
+	text-align: right;
+}
+
+/*CSS HISTORIQUE**************************/
+hr{
+	width: 80%;
+}
+
+.main0{
+>>>>>>> b15dbfce8781c292eb34041d82ae84c6dbb360d0
 	background-image: url(../img/solidarites-femme.jpg);
-	height: 400px;
+	height: 500px;
 	background-size: cover;
+}
+
+#listLogoP2{
+	text-align: center;
 }
 
 /*image haut*/
@@ -165,13 +216,11 @@ main>div>h2
 background-image: center;
 }
 
-
 /*img groupe*/
 .fotoGroupe{
 	text-align: center;
+	margin-bottom: 50px;
 }
-
-
 
 /*les paragraphes*/
 .paragraphe{
@@ -179,16 +228,14 @@ background-image: center;
 }
 
 .paragraphe2{
-
-	padding-top: 20px;
-	padding-bottom: 10px;
-	width: 1000px;
-	margin: auto;
+	margin: 20px auto 20px auto;
+	padding : 20px 20px 10px 20px;
+	width: 600px;
   	border-style: solid;
+  	border-color:#1ACCAB;
  	border-width: 2px;
 	list-style: none;
 	text-align: center;
-	background-color: #6DFFE4
 }
 
 .vertGras{
@@ -196,17 +243,16 @@ background-image: center;
 	font-weight: bold ;
 }
 
-
 .doc{
 	display: flex;
 	justify-content: space-around;
-
 }
 
 /*les partenaires dans historiques*/
-#logopart{
-width: 100px;
-height: 100px;
+.listLogoP2{
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 30px;
 }
 
 .partenaires{
@@ -214,6 +260,7 @@ height: 100px;
 	flex-wrap: nowrap;
 	justify-content: space-around;
 	list-style: none;
+<<<<<<< HEAD
 
 }
 /* X Small ( phones, 576px and down) */
@@ -283,3 +330,6 @@ height: 100px;
 
 
 }
+=======
+} /*FIN CSS HISTORIQUE******************************************/
+>>>>>>> b15dbfce8781c292eb34041d82ae84c6dbb360d0
