@@ -1,16 +1,32 @@
 
-/* BODY */
-
-h1
+/************** BODY  */
+/******************** css appliquez a toute les page*/
+body
 {
-	font-family: quicksandmedium;
+	font-family: "Quicksand", "regular";
+	font-size:	1.25rem;
 }
-
-
- /* DIV CONTAINER */
-/* mettredans la repsonsive la width de 1400px */
+h1, h2, h3
+{
+	font-family: "quicksand", medium;
+}
+h2
+{
+	color: #107F6A;
+	margin-bottom: 4%;
+	font-size: 2.8rem;
+}
+/* DIV CONTAINER */ 
+div.container
+{
+	width: 1400px; margin: 0 auto 0 auto;
+}
+/************************************** PAGE ACCUEIL ****************************/
 /* HEADER */
-
+header
+{
+	margin-bottom: 3%;
+}
 /*  nav */
 nav
 {
@@ -31,7 +47,6 @@ nav a
 }
 /* fin nav */
 /* div title */
-
 .headerImage
 {
 	background-image: url("../img/bg-stop-aux-violences-contre-les-femmes.jpg");
@@ -43,11 +58,86 @@ nav a
 .headerImage>h1
 {
 	color: white;
-	font-size: 4em;
+	font-size: 4rem;
 }
+/* fin title */
 /* *****************  MAIN ******************** */
+main>div
+{
+	margin-bottom: 5%;
+}
+main>div>h2
+{
+	padding-left: 5%;
+	font-size: 2.8rem;
+}
+/* citations */
+.citations
+{
+	margin-bottom: 3%;
+}
+.citations>div
+{
+	width: 50%;
+	border-color: #107F6A;
+}
+.citations>div>img
+{
+	width: 22%;
+    padding: 3%;
+}
+.citations>div>div
+{
+	width: 50%;
+	color: #107F6A;
+}
+/* Objectifs */
+.mainCardObject
+{
+	text-transform: capitalize;
+}
+.mainCardObject>div
+{
+	margin-top: 2%; 
+}
+.mainCardObject h3
+{
+	font-weight: bold;
+}
+.mainCardObject>div>div
+{
+	background: #6DFFE4;
+	border: 2px solid #000000;
+}
+/* main Slider */
+.mainSlider>div
+{
+	width: 80%;	
+}
+/* card contact */
+.cardContactRow>div>div>div
+{
+	width: 50%;
+	margin: 2% 5% 2% 5%;
+	text-transform: capitalize;
+}
+.cardContactRow>div>div>div>img
+{
+	width: 80%;
+}
+.cardContactTitle
+{
+	color: #107F6A;
+}
+.cardContactRow>div
+{
+	margin-top: 2%; 
+}
 
 
+
+
+/*-*********************************  fin page ACCUEIL ***********************/
 /*Page contact - provisoire*/
 .body>h1
 {
@@ -56,7 +146,6 @@ nav a
     font-family: quicksandmedium;
     font-size: 35px;
     text-transform: uppercase;
-    
 }
 
 .btn
@@ -65,12 +154,6 @@ nav a
 	font-size: 25px;
 	text-align: center;
 }
-   
-
-main{
-	width: 1400px;
-}
-
 .main{
 	background-image: url(../img/solidarites-femme.jpg);
 	height: 400px;
@@ -131,5 +214,72 @@ height: 100px;
 	flex-wrap: nowrap;
 	justify-content: space-around;
 	list-style: none;
+
+}
+/* X Small ( phones, 576px and down) */
+@media (max-width: 576px) 
+{ 
+	.citations>div 
+	{
+		width: 80%;
+	}
+	.citations>div>div 
+	{
+		width: 100%;
+	}
+	.citations>div>img
+	{
+		width: 20%;
+		padding: 2% 0 0 0;
+	}
+}
+ /* Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) 
+{ 
+	.citations>div 
+	{
+		width: 80%;
+	}
+	.citations>div>div 
+	{
+		width: 100%;
+	}
+	.citations>div>img
+	{
+		width: 24%;
+		padding: 3% 0 0 0;
+	}
+}
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) 
+{ 
+	/* PAGE ACCUEIL */
+	/* citations */
+	.citations>div 
+	{
+		width: 70%;
+	}
+	.citations>div>img
+	{
+		width: 24%;
+		padding: 3%;
+	}
+
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) 
+{ 
+	/* PAGE ACCUEIL */
+	/* citations */
+
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) 
+{ 
+	/* PAGE ACCUEIL */
+
 
 }
