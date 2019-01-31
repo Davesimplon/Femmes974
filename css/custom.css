@@ -74,13 +74,30 @@ nav a
 	color: white;
 	background-color: #107F6A;
 	border-color: none;
+}
 
+.colonne2{
+	display: flex;
+	align-items: center;
+}
 
-
+.colonne21{
+	list-style: none;
 }
 
 
 
+.colonne1{
+	margin-top: 50px;
+}
+
+.form-control{
+	background-color: #F0F0F0;
+}
+
+.bouton{
+	text-align: right;
+}
 
 /*CSS HISTORIQUE**************************/
 hr{
@@ -115,10 +132,10 @@ background-image: center;
 
 .paragraphe2{
 	margin: 20px auto 20px auto;
-	padding-top: 20px;
-	padding-bottom: 10px;
-	width: 500px;
-  	border-style: none;
+	padding : 20px 20px 10px 20px;
+	width: 600px;
+  	border-style: solid;
+  	border-color:#1ACCAB;
  	border-width: 2px;
 	list-style: none;
 	text-align: center;
@@ -136,9 +153,9 @@ background-image: center;
 
 /*les partenaires dans historiques*/
 .listLogoP2{
-text-align: center;
-margin-top: 20px;
-margin-bottom: 30px;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 30px;
 }
 
 .partenaires{
