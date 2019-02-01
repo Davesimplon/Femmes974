@@ -230,6 +230,7 @@ hr{
 	.colonne2{
 		display: flex;
 		align-items: center;
+
 	}
 	
 	.colonne21
@@ -238,7 +239,9 @@ hr{
 	}
 	
 	.colonne1{
-		margin-top: 50px;
+		margin-top: 10px;
+		display: flex;
+		justify-content: center;
 	}
 	
 	.form-control{
@@ -248,6 +251,8 @@ hr{
 	.bouton{
 		text-align: right;
 	}
+
+
 	
 	/*CSS HISTORIQUE**************************/
 	hr{
