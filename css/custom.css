@@ -8,24 +8,29 @@
 body
 {
 	font-family: "Quicksand", "regular";
-	font-size:	1.25rem;
+	font-size:	1.15rem;
 }
 h1, h2, h3
 {
 	font-family: "quicksand", medium;
 }
+
 h2
 {
 	color: #107F6A;
 	margin-bottom: 4%;
-	font-size: 2.8rem;
+	font-size: 2rem;
+}
+
+h3{
+	font-size: 1.7rem;
 }
 /* DIV CONTAINER */ 
 div.container
 {
 	width: 1400px; margin: 0 auto 0 auto;
 }
-/************************************** PAGE ACCUEIL ****************************/
+/*********************************************************************** PAGE ACCUEIL ***/
 /* HEADER */
 header
 {
@@ -65,7 +70,7 @@ nav a
 	font-size: 4rem;
 }
 /* fin title */
-/* *****************  MAIN ******************** */
+/* *************************************************************************  MAIN *** */
 main>div
 {
 	margin-bottom: 5%;
@@ -139,7 +144,7 @@ main>div>h2
 }
 
 
-/*-*********************************  fin page ACCUEIL ***********************/
+/*-*********************************************************************  fin page ACCUEIL */
 
 /*Page contact - provisoire*/
 .body>h1
@@ -189,7 +194,7 @@ main>div>h2
 	text-align: right;
 }
 
-/*CSS HISTORIQUE**************************/
+/******HISTORIQUE**********************************************CSS HISTORIQUE***/
 hr{
 	width: 80%;
 }
@@ -242,7 +247,7 @@ background-image: center;
 	justify-content: space-around;
 }
 
-/*les partenaires dans historiques*/
+/*les partenaires */
 .listLogoP2{
 	text-align: center;
 	margin-top: 20px;
@@ -255,7 +260,58 @@ background-image: center;
 	justify-content: space-around;
 	list-style: none;
 }
- /*FIN CSS HISTORIQUE******************************************/
+ /**HISTORIQUE**********************************************FIN CSS HISTORIQUE**/
+
+
+ /***FOOTER*********************************************************************FOOTER*/
+footer
+{
+	background-color: #E0E0E0;
+	padding: 20px;
+}
+
+footer .containerFooter
+{
+	font-family: "Quicksand", "regular";
+	font-size:	0.8rem;
+}
+
+footer h3
+{
+	font-family: "quicksand";
+	font-size:	1rem;
+	font-weight: bold;
+}
+
+.containerFooter button
+{
+width: 35px;
+height: 35px;
+text-align: center;
+display: flex;
+align-items: center;
+justify-content: center;
+margin: auto;
+margin-top: 10px;
+}
+
+.containerFooter a
+{
+	color: black;
+}
+
+.copyright
+{
+	font-size:	0.8rem;
+	text-align: center;
+}
+
+
+
+
+
+
+/****FIN FOOTER*******************************************************************FIN FOOTER*/
 
 
 /* X Small ( phones, 576px and down) */
@@ -337,7 +393,7 @@ background-image: center;
 {
     background-color: rgba(255, 255, 255, 0.918)
 }
-.info>h1
+.info-liens>h1
 {
   text-align: center;
 }
@@ -351,9 +407,9 @@ background-image: center;
 {
     height: 112px;
 }
-.card-body
+.carteLien
 {
     text-align: center;
-    background-color:rgba(255, 255, 255, 0.918) ;
+    background-color: rgba(255, 255, 255, 0.918) ;
 }
 /*fin css liens utiles*******************************/
