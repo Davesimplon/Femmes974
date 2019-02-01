@@ -310,7 +310,53 @@ background-image: center;
 	list-style: none;
 }
  /**HISTORIQUE**********************************************FIN CSS HISTORIQUE**/
+/**css liens utiles*****************************************************/
+.media-liens>img
+{
+    background-color: gray;
+    
+    height: 50px;
+}
 
+.info-liens>h1
+{
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.918);
+  padding-bottom: 50px;
+}
+ 
+.card-liens
+{
+ border: 0;
+ align-items: center;
+}
+
+.media-liens
+{
+    height: 112px;
+}
+
+.card-body-liens
+{
+    text-align: center;
+	background-color:rgba(255, 255, 255, 0.918) ;
+	
+}
+
+
+.card-body-liens>a 
+{
+	color: rgb(146, 144, 144);
+}
+
+
+.card-body-liens>p
+{
+	color: rgb(146, 144, 144);
+}
+
+
+/*fin css liens utiles*/
 
  /***FOOTER*********************************************************************FOOTER*/
 footer
@@ -362,38 +408,6 @@ margin-top: 10px;
 
 /****FIN FOOTER*******************************************************************FIN FOOTER*/
 
-
-/*css liens utiles***********************/
-.media>img
-{
-    background-color: gray;
-    
-    height: 50px;
-}
-.card
-{
-    background-color: rgba(255, 255, 255, 0.918)
-}
-.info-liens>h1
-{
-  text-align: center;
-}
- 
-.card
-{
- border: 0;
- align-items: center;
-}
-.media
-{
-    height: 112px;
-}
-.carteLien
-{
-    text-align: center;
-    background-color: rgba(255, 255, 255, 0.918) ;
-}
-/*fin css liens utiles*******************************/
 
 /* X Small ( phones, 576px and down) */
 @media (max-width: 576px) 
