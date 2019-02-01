@@ -4,8 +4,15 @@
 body
 {
 	font-family: "Quicksand", "regular";
-	font-size:	1.25rem;
+	font-size:	1.15rem;
 }
+/* taille site*/
+.bodyContainer
+	{
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+	}
 h1, h2, h3
 {
 	font-family: "quicksand", medium;
@@ -14,12 +21,11 @@ h2
 {
 	color: #107F6A;
 	margin-bottom: 4%;
-	font-size: 2.8rem;
+	font-size: 2.4rem;
 }
-/* DIV CONTAINER */ 
-div.container
+h3
 {
-	width: 1400px; margin: 0 auto 0 auto;
+	font-size: 1.8rem;
 }
 /************************************** PAGE ACCUEIL ****************************/
 /* HEADER */
@@ -60,7 +66,7 @@ nav a
 	color: white;
 	font-size: 4rem;
 }
-/* fin title */
+/* fin title */ /**  fin HEADER */
 /* *****************  MAIN ******************** */
 main>div
 {
@@ -69,7 +75,6 @@ main>div
 main>div>h2
 {
 	padding-left: 5%;
-	font-size: 2.8rem;
 }
 /* citations */
 .citations
@@ -115,11 +120,12 @@ main>div>h2
 	width: 80%;	
 }
 /* card contact */
-.cardContactRow>div>div>div
+.cardImage
 {
 	width: 50%;
-	margin: 2% 5% 2% 5%;
+	padding: 2% 5% 2% 5%;
 	text-transform: capitalize;
+	text-align: center;
 }
 .cardContactRow>div>div>div>img
 {
@@ -133,19 +139,27 @@ main>div>h2
 {
 	margin-top: 2%; 
 }
+/********     VIDEO         deja responsive  ************/
+.video-container 
+{
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	height: 0;
+	overflow: hidden;
+}
 
-
-
-<<<<<<< HEAD
-
-/*-*********************************  fin page ACCUEIL ***********************/
-=======
-/*les couleurs à utiliser*/
-/*#6DFFE4 #107F6A #1ACCAB*/
-
-
->>>>>>> b15dbfce8781c292eb34041d82ae84c6dbb360d0
-/*Page contact - provisoire*/
+.video-container iframe,  
+.video-container object,  
+.video-container embed
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+/*-*********************************  fin page ACCUEIL ***********************//*Page contact - provisoire*/
 .body>h1
 {
 	margin-left: 150px;
@@ -161,51 +175,47 @@ main>div>h2
 	font-size: 25px;
 	text-align: center;
 }
-<<<<<<< HEAD
 .main{
-=======
-
-/*CSS CONTACT*/
-#btnEnvoyer{
-	color: white;
-	background-color: #107F6A;
-	border-color: none;
-}
-
-.colonne2{
-	display: flex;
-	align-items: center;
-}
-
-.colonne21{
-	list-style: none;
-}
-
-
-
-.colonne1{
-	margin-top: 50px;
-}
-
-.form-control{
-	background-color: #F0F0F0;
-}
-
-.bouton{
-	text-align: right;
-}
-
-/*CSS HISTORIQUE**************************/
-hr{
-	width: 80%;
-}
-
-.main0{
->>>>>>> b15dbfce8781c292eb34041d82ae84c6dbb360d0
 	background-image: url(../img/solidarites-femme.jpg);
 	height: 500px;
 	background-size: cover;
 }
+	
+	/*CSS CONTACT*/
+	#btnEnvoyer{
+		color: white;
+		background-color: #107F6A;
+		border-color: none;
+	}
+	
+	.colonne2{
+		display: flex;
+		align-items: center;
+	}
+	
+	.colonne21{
+		list-style: none;
+	}
+	
+	
+	
+	.colonne1{
+		margin-top: 50px;
+	}
+	
+	.form-control{
+		background-color: #F0F0F0;
+	}
+	
+	.bouton{
+		text-align: right;
+	}
+	
+	/*CSS HISTORIQUE**************************/
+	hr{
+		width: 80%;
+	}
+
 
 #listLogoP2{
 	text-align: center;
@@ -260,12 +270,18 @@ background-image: center;
 	flex-wrap: nowrap;
 	justify-content: space-around;
 	list-style: none;
-<<<<<<< HEAD
-
 }
 /* X Small ( phones, 576px and down) */
 @media (max-width: 576px) 
 { 
+	.mainHeader>nav
+	{
+		flex-direction: column;
+	}
+	.mainHeader>nav>ul
+	{
+		flex-direction: column;
+	}
 	.citations>div 
 	{
 		width: 80%;
@@ -276,13 +292,13 @@ background-image: center;
 	}
 	.citations>div>img
 	{
-		width: 20%;
+		width: 12%;
 		padding: 2% 0 0 0;
 	}
 }
  /* Small devices (landscape phones, 576px and up) */
 
-@media (min-width: 576px) 
+@media (max-width: 768px) 
 { 
 	.citations>div 
 	{
@@ -297,11 +313,35 @@ background-image: center;
 		width: 24%;
 		padding: 3% 0 0 0;
 	}
+	/* card contact */
+	.cardImage>img 
+	{		
+		width: 70%;
+	}
+	.cardContactRow>div
+	{
+    flex-direction: column !important;
+	}
+	.cardImage
+	{
+		margin-left: auto;
+		margin-right: auto;
+		width: 80%;
+	}
 }
  /* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) 
+@media (max-width: 992px) 
 { 
 	/* PAGE ACCUEIL */
+	.bodyContainer
+	{
+		width: 100%;
+	}
+	/* header */
+	.mainHeader>nav
+	{
+
+	}
 	/* citations */
 	.citations>div 
 	{
@@ -312,24 +352,5 @@ background-image: center;
 		width: 24%;
 		padding: 3%;
 	}
-
 }
 
-/* // Large devices (desktops, 992px and up) */
-@media (min-width: 992px) 
-{ 
-	/* PAGE ACCUEIL */
-	/* citations */
-
-}
-
-/* // Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) 
-{ 
-	/* PAGE ACCUEIL */
-
-
-}
-=======
-} /*FIN CSS HISTORIQUE******************************************/
->>>>>>> b15dbfce8781c292eb34041d82ae84c6dbb360d0
