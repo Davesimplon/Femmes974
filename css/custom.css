@@ -311,6 +311,29 @@ background-image: center;
 }
  /**HISTORIQUE**********************************************FIN CSS HISTORIQUE**/
 
+ /*TRAVAUX*/
+
+ .imagetravaux
+ {
+ 	background-image: url("../img/bg-force-de-filles.png");
+ 	background-repeat: no-repeat;
+	background-size:  cover;
+	background-color:  #000;
+	padding: 5% 15% 30% 0;
+
+ }
+
+ p
+ {
+ 	background-color: #107F6A;
+ 	color: #ffffff;
+ }
+
+.display
+{
+	background-color: #ffffff;
+	color:#000000;
+}
 
  /***FOOTER*********************************************************************FOOTER*/
 footer
