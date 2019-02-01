@@ -1,3 +1,7 @@
+/*les couleurs à utiliser*/
+/*#6DFFE4 #107F6A #1ACCAB*/
+
+
 
 /************** BODY  */
 /******************** css appliquez a toute les page*/
@@ -175,7 +179,47 @@ main>div>h2
 	font-size: 25px;
 	text-align: center;
 }
+<<<<<<< HEAD
 .main{
+=======
+
+
+/*CSS CONTACT*/
+#btnEnvoyer{
+	color: white;
+	background-color: #107F6A;
+	border-color: none;
+}
+
+.colonne2{
+	display: flex;
+	align-items: center;
+}
+
+.colonne21{
+	list-style: none;
+}
+
+
+
+.colonne1{
+	margin-top: 50px;
+}
+
+.form-control{
+	background-color: #F0F0F0;
+}
+
+.bouton{
+	text-align: right;
+}
+
+/*CSS HISTORIQUE**************************/
+hr{
+	width: 80%;
+}
+
+.main0{
 	background-image: url(../img/solidarites-femme.jpg);
 	height: 500px;
 	background-size: cover;
@@ -271,6 +315,9 @@ background-image: center;
 	justify-content: space-around;
 	list-style: none;
 }
+ /*FIN CSS HISTORIQUE******************************************/
+
+
 /* X Small ( phones, 576px and down) */
 @media (max-width: 576px) 
 { 
@@ -354,3 +401,45 @@ background-image: center;
 	}
 }
 
+<<<<<<< HEAD
+=======
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) 
+{ 
+	/* PAGE ACCUEIL */
+
+
+}
+
+/*css liens utiles***********************/
+.media>img
+{
+    background-color: gray;
+    
+    height: 50px;
+}
+.card
+{
+    background-color: rgba(255, 255, 255, 0.918)
+}
+.info>h1
+{
+  text-align: center;
+}
+ 
+.card
+{
+ border: 0;
+ align-items: center;
+}
+.media
+{
+    height: 112px;
+}
+.card-body
+{
+    text-align: center;
+    background-color:rgba(255, 255, 255, 0.918) ;
+}
+/*fin css liens utiles*******************************/
+>>>>>>> fd1c779ba3983fcb3c28dce84c3c650e9ab9462c
