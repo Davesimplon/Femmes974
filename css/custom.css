@@ -159,7 +159,7 @@ main>div
 /*-*********************************************************************  fin page ACCUEIL */
 /*Page contact - provisoire*/
 
-/*.body>h1
+.body>h1
 {
 	margin-left: 150px;
     margin-right: 150px;
@@ -362,7 +362,33 @@ background-image: center;
 }
 
 
+
+ /*TRAVAUX*/
+
+ .imagetravaux
+ {
+ 	background-image: url("../img/bg-force-de-filles.png");
+ 	background-repeat: no-repeat;
+	background-size:  cover;
+	background-color:  #000;
+	padding: 5% 15% 30% 0;
+
+ }
+
+ p
+ {
+ 	background-color: #107F6A;
+ 	color: #ffffff;
+ }
+
+.display
+{
+	background-color: #ffffff;
+	color:#000000;
+}
+
 /*fin css liens utiles*/
+
 
  /***FOOTER*********************************************************************FOOTER*/
 footer
@@ -424,7 +450,7 @@ margin-top: 10px;
 }
 /*fin css liens utiles*******************************/
 
-/*********************        TRAVAUX */
+/*********************TRAVAUX ***********************/
 .main0Image
 {
 	background-image: url("../img/bg-force-de-filles.png");
