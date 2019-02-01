@@ -77,10 +77,6 @@ main>div
 {
 	margin-bottom: 5%;
 }
-main>div>h2
-{
-	padding-left: 5%;
-}
 /* citations */
 .citations
 {
@@ -120,10 +116,7 @@ main>div>h2
 	border: 2px solid #000000;
 }
 /* main Slider */
-.mainSlider>div
-{
-	width: 80%;	
-}
+/*.............*/
 /* card contact */
 .cardImage
 {
@@ -148,7 +141,7 @@ main>div>h2
 .video-container 
 {
 	position: relative;
-	padding-bottom: 56.25%;
+	padding-bottom: 33%;
 	padding-top: 30px;
 	height: 0;
 	overflow: hidden;
@@ -166,7 +159,7 @@ main>div>h2
 /*-*********************************************************************  fin page ACCUEIL */
 /*Page contact - provisoire*/
 
-.body>h1
+/*.body>h1
 {
 	margin-left: 150px;
     margin-right: 150px;
@@ -414,28 +407,11 @@ margin-top: 10px;
 }
 /****FIN FOOTER*******************************************************************FIN FOOTER*/
 
-
-/*css liens utiles***********************/
-.media>img
-{
-    background-color: gray;
-    
-    height: 50px;
-}
-.card
-{
-    background-color: rgba(255, 255, 255, 0.918)
-}
 .info-liens>h1
 {
   text-align: center;
 }
- 
-.card
-{
- border: 0;
- align-items: center;
-}
+
 .media
 {
     height: 112px;
@@ -446,6 +422,7 @@ margin-top: 10px;
     background-color: rgba(255, 255, 255, 0.918) ;
 }
 /*fin css liens utiles*******************************/
+
 /*********************        TRAVAUX */
 .main0Image
 {
@@ -459,6 +436,7 @@ margin-top: 10px;
 {
 	color: white;
 	font-size: 4rem;
+}
 /* X Small ( phones, 576px and down) */
 @media (max-width: 576px) 
 { 
