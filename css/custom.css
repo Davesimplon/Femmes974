@@ -308,6 +308,7 @@ background-image: center;
 	flex-wrap: nowrap;
 	justify-content: space-around;
 	list-style: none;
+	margin-bottom: 30px;
 }
  /**HISTORIQUE**********************************************FIN CSS HISTORIQUE**/
 /**css liens utiles*****************************************************/
@@ -513,4 +514,4 @@ margin-top: 10px;
 		width: 24%;
 		padding: 3%;
 	}
-}}
+}
