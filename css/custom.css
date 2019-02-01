@@ -408,39 +408,6 @@ margin-top: 10px;
 	text-align: center;
 }
 /****FIN FOOTER*******************************************************************FIN FOOTER*/
-
-
-/*css liens utiles***********************/
-.media>img
-{
-    background-color: gray;
-    
-    height: 50px;
-}
-.card
-{
-    background-color: rgba(255, 255, 255, 0.918)
-}
-.info-liens>h1
-{
-  text-align: center;
-}
- 
-.card
-{
- border: 0;
- align-items: center;
-}
-.media
-{
-    height: 112px;
-}
-.carteLien
-{
-    text-align: center;
-    background-color: rgba(255, 255, 255, 0.918) ;
-}
-/*fin css liens utiles*******************************/
 /*********************        TRAVAUX */
 .main0Image
 {
