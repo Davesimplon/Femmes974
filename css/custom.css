@@ -298,8 +298,7 @@ background-image: center;
 
 .paragraphe2{
 	margin: 20px auto 20px auto;
-	padding : 20px 20px 10px 20px;
-	width: 600px;
+	width: auto;
   	border-style: solid;
   	border-color:#1ACCAB;
  	border-width: 2px;
@@ -391,16 +390,25 @@ background-image: center;
 
  }
 
- p.annee
- {
+ .annee{
  	background-color: #107F6A;
  	color: #ffffff;
+ 	display: flex;
+ 	justify-content: center;
+ 	align-items: center;
+ 	height: 50px;
  }
 
-.display
-{
-	background-color: #ffffff;
-	color:#000000;
+.petiteDate{
+		font-size:	0.8rem;
+}
+
+#btnContact{
+	background-color: #6DFFE4;
+}
+
+.containerTravaux{
+	text-align: justify;
 }
 
 /*fin css liens utiles*/
@@ -504,6 +512,24 @@ margin-top: 10px;
 		width: 12%;
 		padding: 2% 0 0 0;
 	}
+		/*pour diminuer la taille de la police lorsque responsive*/
+	main{
+		font-size: 0.8rem;
+	}
+	h3{
+		font-size: 1.2rem;
+	}
+	h2{
+		font-size: 1.5rem;
+	}
+h1.text-left{
+	font-size: 2rem;
+}
+
+h1.text-right{
+	font-size: 2rem;
+}
+	/*fin ** diminution taille police*/
 }
  /* Small devices (landscape phones, 576px and up) */
 
@@ -537,6 +563,24 @@ margin-top: 10px;
 		margin-right: auto;
 		width: 80%;
 	}
+		/*pour diminuer la taille de la police lorsque responsive*/
+	main{
+		font-size: 0.8rem;
+	}
+	h3{
+		font-size: 1.2rem;
+	}
+	h2{
+		font-size: 1.5rem;
+	}
+h1.text-left{
+	font-size: 2rem;
+}
+
+h1.text-right{
+	font-size: 2rem;
+}
+	/*fin ** diminution taille police*/
 }
  /* Medium devices (tablets, 768px and up) */
 @media (max-width: 992px) 
