@@ -34,11 +34,15 @@ h3
 }
 /*********************************************************************** PAGE ACCUEIL ***/
 /* HEADER */
-header
+/*	header
 {
 	margin-bottom: 3%;
-}
+}*/
 /*  nav */
+.headerNav
+{
+	flex-wrap: nowrap;/*aligne logo et link et button*/
+}
 nav
 {
 	background: #1ACCAB;
@@ -50,18 +54,20 @@ nav
 .headerNav a:hover
 {
 	color: white;
-	font-weight: bold;
 }
 nav a
 {
 	color:black;
 }
-#btnAdherer{
-	background-color: #107F6A;
+.headerNav>button/*hide button in nav default*/
+{
+	visibility: hidden;
 }
-
-
-
+.navHide2
+{
+	width: 100%;
+	display: none!important;
+}
 /* fin nav */
 /* div title */
 .headerImage
@@ -79,15 +85,16 @@ nav a
 }
 /* fin title */ /**  fin HEADER */
 /* *****************  MAIN ******************** */
-main>div
+.citations, .mainCard,.butAsso
 {
-	margin-bottom: 5%;
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+.mainIndex>div:nth-child(odd), .cardContact>div>div>div
+{
+	background: #f8f8f8;
 }
 /* citations */
-.citations
-{
-	margin-bottom: 3%;
-}
 .citations>div
 {
 	width: 50%;
@@ -127,6 +134,15 @@ main>div
 	border: 2px solid #000000;
 }
 /* main Slider */
+.mainSlider>div
+{
+	height: 450px;
+}
+.slideImgHeight>div>img
+{
+	height: 450px;
+	object-fit: cover;
+}
 /*.............*/
 /* card contact */
 .cardImage
@@ -148,7 +164,14 @@ main>div
 {
 	margin-top: 2%; 
 }
+.cardContactRow>div>div
+{
+	width: 95%;/*reduit le border du card*/
+    margin-left: auto;
+    margin-right: auto;
+}
 /********     VIDEO         deja responsive  ************/
+
 .video-container 
 {
 	position: relative;
@@ -335,8 +358,6 @@ background-image: center;
 /**css liens utiles*****************************************************/
 .media-liens>img
 {
-    background-color: gray;
-    
     height: 50px;
 }
 
@@ -483,11 +504,8 @@ margin-top: 10px;
 /* X Small ( phones, 576px and down) */
 @media (max-width: 576px) 
 { 
-	.mainHeader>nav
-	{
-		flex-direction: column;
-	}
-	.mainHeader>nav>ul
+	/***********  ACCUEIL*********/
+	.headerNav>div>ul
 	{
 		flex-direction: column;
 	}
@@ -509,6 +527,29 @@ margin-top: 10px;
 
 @media (max-width: 768px) 
 { 
+	/***********  ACCUEIL*********/
+	/* NAV*/
+	.headerNav
+	{
+		flex-wrap: wrap;/*aligne logo et link et button*/
+	}
+	.headerNav>button/*hide button in nav default*/
+	{
+		visibility: visible;
+	}
+	.navHide
+	{
+		display: none;
+	}
+	.headerNav>div a 
+	{
+		padding-left: 0;
+	}
+	.navHide2
+	{
+		display: flex !important;
+	}
+	/* citations */
 	.citations>div 
 	{
 		width: 80%;
@@ -541,7 +582,7 @@ margin-top: 10px;
  /* Medium devices (tablets, 768px and up) */
 @media (max-width: 992px) 
 { 
-	/* PAGE ACCUEIL */
+	/***********  ACCUEIL*********/
 	.bodyContainer
 	{
 		width: 100%;

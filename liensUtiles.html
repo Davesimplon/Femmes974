@@ -7,35 +7,81 @@
   
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-  ​
+  
   <!--FontAwesome-->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-  ​
+  
   <!-- css -->
-  <link rel="stylesheet" href="css/custom.css" type="text/css">
+  <link rel="stylesheet" href="./css/custom.css" type="text/css">
   <title>Femmes974</title>
 </head>
 <body> 
   <div class="bodyContainer">
+    <!--Navbar-->
     <header role="banner" class="mainHeader">
-      <nav class="navbar headerNav">
-        <a class="navbar-brand" href="#">Femmes974</a>
-        <ul class="nav justify-content-center">
-          <li class="nav-item">
-            <a href="historique.html" class="nav-link active" href="#">Historique </a>
-          </li>
-          <li class="nav-item">
-            <a href="travaux.html" class="nav-link" href="#">Les travaux</a>
-          </li>
-          <li class="nav-item">
-            <a href="contact.html" class="nav-link" href="#">Nous contacter</a>
-          </li>
-          <li class="nav-item">
-            <a href="liensUtiles.html" class="nav-link" href="#" >Liens utiles</a>
-          </li>
-        </ul>
-        <a href="https://www.helloasso.com/associations/femmes-974/adhesions/femmes974-adhesions-2016"> Adhérer</a>
+      <nav class="navbar headerNav flex-md-row align-items-sm-start">
+        <!-- Navbar brand -->
+        <a class="navbar-brand" href="index.html">Femmes974</a>
+        <!-- first nav link -->
+        <div class="navbar-collapse navHide">
+          <!-- Links -->
+          <ul class="nav flex-sm-column flex-md-row justify-content-md-around">
+            <li class="nav-item active">
+              <a  href="index.html"class="nav-link">Accueil <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a href="historique.html" class="nav-link">Historique </a>
+            </li>
+            <li class="nav-item">
+              <a href="travaux.html" class="nav-link">Les travaux</a>
+            </li>
+            <li class="nav-item">
+              <a href="liensUtiles.html" class="nav-link">Liens utiles</a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link">Nous contacter</a>
+            </li>
+            <li class="nav-item">
+              <a href="https://www.helloasso.com/associations/femmes-974/adhesions/femmes974-adhesions-2016" class="nav-link"> Adhérer</a>
+            </li>  
+            <!-- end Links -->
+          </ul>
+        </div>
+        <!-- Collapse button -->
+        <button class="navbar-toggler toggler-example d-flex align-self-start " type="button" data-toggle="collapse" data-target="#navbarSupportedContent1"
+        aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"><span class="dark-blue-text"><i
+          class="fas fa-bars fa-1x"></i></span>
+        </button>
+        <!-- Collapsible content -->
+        <div class="d-flex flex-row-reverse navHide2">
+          <div class="navbar-collapse collapse" id="navbarSupportedContent1">
+              <!-- Links -->
+              <ul class="nav flex-column flex-md-row justify-content-md-around">
+                <li class="nav-item active">
+                  <a href="index.html" class="nav-link">Accueil <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a href="historique.html" class="nav-link">Historique </a>
+                </li>
+                <li class="nav-item">
+                  <a href="travaux.html" class="nav-link">Les travaux</a>
+                </li>
+                <li class="nav-item">
+                  <a href="liensUtiles.html" class="nav-link">Liens utiles</a>
+                </li>
+                <li class="nav-item">
+                  <a href="contact.html" class="nav-link">Nous contacter</a>
+                </li>
+                <li class="nav-item">
+                  <a href="https://www.helloasso.com/associations/femmes-974/adhesions/femmes974-adhesions-2016" class="nav-link"> Adhérer</a>
+                </li>  
+                <!-- end Links -->
+              </ul>
+          </div>
+        </div>
+       
       </nav>
+      <!--/.end Navbar-->
     </header><!--fin header-->
     
     
@@ -98,7 +144,7 @@
             </div>
             <div class="card card-liens">
               <div class="media media-liens">
-                <img src="img/dddroits.png" class="mr-3" alt="...">
+                <img src="img/defenseurDroits.png" class="mr-3" alt="...">
               </div>
               <div class="card-body card-body-liens">
                 <a href="http://www.defenseurdesdroits.fr/" >	Défenseur des droits de la République française</a>
@@ -162,7 +208,7 @@
                 </div>
                 <div class="card card-liens">
                   <div class="media media-liens">
-                    <img src="img/efoir.png" class="mr-3" alt="...">
+                    <img src="img/efoir_logoblanc.png" class="mr-3" alt="...">
                   </div>
                   <div class="card-body card-body-liens">
                     <a href="http://www.efoireunion.re/" 
