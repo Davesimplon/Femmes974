@@ -92,7 +92,7 @@ nav a
 }
 .mainIndex>div:nth-child(odd), .cardContact>div>div>div
 {
-	background: #f8f8f8;
+	background: #ecebeb;
 }
 /* citations */
 .citations>div
